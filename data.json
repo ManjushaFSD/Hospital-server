@@ -1,0 +1,41 @@
+{
+  "hospitals": [
+    {
+      "id": "1",
+      "name": "City Hospital",
+      "patientCount": 500,
+      "location": "New York"
+    },
+    {
+      "id": "2",
+      "name": "Eskay Hospital",
+      "patientCount": 320,
+      "location": "Banglore"
+    },
+    {
+      "id": "3",
+      "name": "Saint Mary Hospital",
+      "patientCount": 200,
+      "location": "Los Angeles"
+    },
+    {
+      "id": "1677665621433",
+      "name": "Lakeshore Hospital",
+      "patientCount": 400,
+      "location": "Ernakulam"
+    },
+    {
+      "id": "1677667113861",
+      "name": "Aster Hospital",
+      "patientCount": 700,
+      "location": "Cochin"
+    },
+    {
+      "id": "1677667315880",
+      "name": "Medicity Hospital",
+      "patientCount": 540,
+      "location": "Gujarat"
+    }
+  ]
+}
+
