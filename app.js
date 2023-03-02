@@ -10,6 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(logger("dev"));
 app.use(cors());
 
+//Path to the directory/JSON file containing the data to be sent
 const dataPath = path.join(__dirname, "data.json");
 
 // Function to write data to the JSON file
@@ -82,6 +83,8 @@ app.delete("/api/hospitals/:id", (req, res) => {
   res.send(`Hospital with ID ${req.params.id} deleted`);
 });
 
+
+//Listening for changes at PORT ||3000
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
